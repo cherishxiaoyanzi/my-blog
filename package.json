@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ant-design-vue": "^1.6.5",
+    "core-js": "^2.6.11",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "valine": "^1.4.14",
+    "vuepress": "^1.5.4"
+  }
+}
