@@ -53,7 +53,7 @@ export function getCurrentPost (path) {
  */
 export function getCategoryText (navs, category) {
   let res = ''
-  if (navs.length && category) {
+  if (navs && navs.length && category) {
     navs.forEach(nav => {
       const { text, link } = nav
       if (link && link.split('/')[1] === category) {

@@ -15,7 +15,7 @@ module.exports = {
   nav: [
     {
       text: '前端编程技术',
-      link: '/web/',
+      link: 'article/web/',
       items: [
         {
           text: 'html',
@@ -33,19 +33,19 @@ module.exports = {
     },
     {
       text: '生活兴趣',
-      link: '/life/'
+      link: 'article/life/'
     },
     {
       text: '软件工具',
-      link: '/tool/'
+      link: 'article/tools/'
     },
     {
       text: '其他',
-      link: '/other/'
+      link: 'article/other.html'
     },
     {
       text: '关于我',
-      link: '/about/'
+      link: 'article/about.html'
     }
   ],
   nameplate: {
